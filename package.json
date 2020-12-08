@@ -1,0 +1,39 @@
+{
+  "name": "qonsai-api",
+  "version": "1.0.0",
+  "description": "This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.64",
+    "@types/uuid": "^8.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/parser": "^4.9.1",
+    "aws-sam-webpack-plugin": "^0.7.0",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-typescript": "^12.0.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.2.0",
+    "hygen": "^6.0.4",
+    "prettier": "^2.2.1",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.1.2",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^1.0.0-rc.8",
+    "@middy/core": "^1.4.0",
+    "@middy/http-json-body-parser": "^1.4.0",
+    "@middy/validator": "^1.4.0",
+    "fp-ts": "^2.9.1",
+    "ksuid": "^2.0.0",
+    "neverthrow": "^3.0.0",
+    "uuid": "^8.3.1"
+  }
+}

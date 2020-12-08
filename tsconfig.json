@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@Preconditions": ["./utils/preconditions.ts"],
+      "@Operation": ["./utils/operation-utils/index.ts"],
+      "@Errors": ["./utils/errors/index.ts"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.js"]
+}
